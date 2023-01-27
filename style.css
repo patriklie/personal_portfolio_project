@@ -1,0 +1,112 @@
+body {
+    padding: 0 16px;
+    max-width: 900px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;   
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+}
+
+h3 {
+    display: inline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 20px 0;
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation li {
+    margin: 8px;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation li a:hover {
+    text-decoration: underline;
+}
+
+.about-me-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-me-text-container {
+    margin-right: 16px;
+    min-width: 250px;
+}
+
+#ada {
+    width: 300px;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+.projects {
+    margin: 20px 0;
+}
+
+.project-image {
+    width: 50%;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+details {
+    cursor: pointer;
+}
+
+/* #skills {
+    margin: 20px 0;
+} */
+
+#skills-container {
+    font-size: 2em;
+    width: 100%;
+    margin-top: 8px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fab {
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+ /*    margin-top: auto; */
+    padding: 12px;
+    margin-top: auto;
+
+}
+
+.heart {
+    color: red;
+}
+
+i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
